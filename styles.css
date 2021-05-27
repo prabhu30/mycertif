@@ -84,3 +84,33 @@ nav>a:hover{
 	font-family: 'Merriweather', serif;
 	text-align: center;
 }
+
+@media screen and (min-width: 480px) and (max-width: 992px){
+  .pimg{
+  	width: 50%;
+  	height: 500px;
+  	margin-left: 25%;
+  }
+  .pk{
+  	font-size: 2rem;
+  	margin-left: 37%;
+  }
+  .cimg{
+  	margin-left: 15%;
+  }
+  .container>a{
+  	font-size: 2rem;
+  	width: 50%;
+  	margin:  2% 0% 5% 15%;
+  	padding: 20px;
+  }
+  iframe{
+  	margin-left: 15% !important;
+  }
+  h2{
+  	display: none !important;
+  }
+  br{
+  	display: none;
+  }
+}
