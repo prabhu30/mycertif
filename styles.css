@@ -95,7 +95,7 @@ nav>a:hover{
 	nav>a{
 		display: none;
 	}
-	.menu,{
+	.menu{
 		opacity: 0.5;
 		font-size: 20px;
 		width: 150px;
@@ -104,12 +104,12 @@ nav>a:hover{
 		margin: 1% 2% 0% 0%;
 		float: right;
 	}
-	.dropdown-menu,
+	.dropdown-menu
 	{
 		font-family: calibri;
 		display: none;
 	}
-	.dropdown-menu a,
+	.dropdown-menu a
 	{
 		color: green;
 		padding: 5px;
