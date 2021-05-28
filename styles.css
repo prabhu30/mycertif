@@ -11,7 +11,6 @@ nav{
 nav>a{
 	color: #90997f;
 	float: right;
-	font-family: Arial;
 	text-decoration: none;
 	margin: 20px 50px 20px 30px;
 }
@@ -85,7 +84,7 @@ nav>a:hover{
 	text-align: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 992px){
+@media screen and (min-width: 359px) and (max-width: 992px){
 	nav{
 		height: 125px;
 	}
