@@ -9,6 +9,7 @@ nav{
 }
 
 nav>a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #90997f;
 	float: right;
 	text-decoration: none;
@@ -84,25 +85,27 @@ nav>a:hover{
 	text-align: center;
 }
 
-@media screen and (min-width: 359px) and (max-width: 992px){
+@media screen and (min-width: 320px) and (max-width: 767px){
 	nav{
-		height: 125px;
+		height: 50px;
 	}
 	nav>a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		display: none;
 	}
 	.menu{
-		font-size: 20px;
-		width: 150px;
-		height: 100px;
+    font-size: 20px;
+		width: 10%;
+		height: 60%;
 		border-radius: 10%;
-		margin: 1% 4% 0% 0%;
+		margin: 2% 7% 0% 0%;
 		float: right;
-		border: 10px solid silver;
+		border: 3px solid #F5F5F0;
+    background-color: #F3F3F0;
 	}
 	.dropdown-menu
 	{
-		height: 450px;
+    padding-bottom: 3px;
 		font-family: calibri;
 		display: none;
 	}
@@ -112,35 +115,37 @@ nav>a:hover{
 		padding: 5px;
 		margin: 0% 0% 5% 5%;
 		display: block;
-		font-size: 3rem;
 		text-decoration: none;
 	}
 	.imgnv{
 		width: 30%;
-		height: 100px;
+		height: 45px;
 	}
   .pimg{
   	width: 50%;
-  	height: 550px;
   	border-radius: 50%;
   	margin-left: 25%;
   }
   .pk{
-  	font-size: 3rem;
   	margin-left: 30%;
   }
   .cimg{
-  	margin-left: 15%;
+    width: 80%;
+    height: 40%;
+  	margin: 10% 0% 0% 10%;
   }
   .container>a{
-  	font-size: 3rem;
-  	border-width: 4px;
+  	border-width: 2px;
   	width: 70%;
-  	margin:  5% 0% 5% 5%;
+  	margin:  auto;
+    margin-bottom: 5%;
   	padding: 20px;
   }
   iframe{
   	margin-left: 15% !important;
+    width: 80% !important;
+    height: 80% !important;
+    margin: 10% 0% 5% 10% !important;
   }
   h2{
   	display: none !important;
@@ -150,7 +155,7 @@ nav>a:hover{
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1600px)
+@media screen and (min-width: 768px) and (max-width: 1600px)
 {
 	.dropdown-menu
 	{
